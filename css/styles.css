@@ -26,6 +26,7 @@ body {
 
 img {
   display: block;
+  width: 100%;
 }
 .button {
   cursor: pointer;
@@ -34,8 +35,8 @@ img {
 .header {
   padding: 16px 0;
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
-    01px 1px rgba(46, 47, 66, 0.16), 01px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 01px 1px rgba(46, 47, 66, 0.16),
+    01px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -118,7 +119,7 @@ img {
   top: 0;
   width: 100%;
   height: 100vh;
-display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -126,9 +127,9 @@ display: none;
 .burger-menu-closeBtn {
   display: flex;
   justify-content: end;
-
 }
-
+.burger-menu-navbar {
+}
 
 .burger-menu-closeBtn button {
   box-sizing: border-box;
@@ -137,7 +138,6 @@ display: none;
   border-radius: 50%;
   opacity: 0.5;
   margin-bottom: 24px;
-
 }
 .burger-menu-navbar-list {
   display: flex;
@@ -157,7 +157,7 @@ display: none;
   flex-direction: column;
   margin-bottom: 48px;
 }
-.burger-menu-contacts a{
+.burger-menu-contacts a {
   color: rgb(67, 68, 85);
   font-size: 20px;
   font-weight: 500;
@@ -172,9 +172,6 @@ display: none;
   display: flex;
   justify-content: space-between;
 }
-
-
-
 
 .features-list {
   padding: 24px 0;
@@ -250,10 +247,10 @@ display: none;
   max-width: 1440px;
   margin: 0 auto;
   background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-  ),
-  url(../images/img-name-small.jpeg);
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-name-small.jpeg);
 }
 
 .effective {
@@ -323,7 +320,7 @@ display: none;
 }
 
 .mainsection-b-icon {
-display: none;
+  display: none;
 }
 
 .strategy {
@@ -337,7 +334,6 @@ display: none;
 }
 
 .paragraf-of-strategy {
-
   color: rgb(67, 68, 85);
   font-size: 16px;
   font-weight: 500;
@@ -439,7 +435,7 @@ display: none;
 }
 
 .mainsection-d {
- padding: 96px 0;
+  padding: 96px 0;
 }
 
 .our-portfolio {
@@ -559,7 +555,7 @@ display: none;
   flex-direction: column;
   align-items: center;
   margin-left: 0;
-  padding-top: 72px;
+  margin-bottom: 72px;
 }
 
 .form-of-footer {
@@ -658,10 +654,10 @@ display: none;
 
 .footer-context {
   margin-left: 0;
+  margin-bottom: 72px;
 }
 
 .webstudio {
-
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -698,7 +694,7 @@ display: none;
   pointer-events: none;
 }
 
-.backdrop.is-open {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;

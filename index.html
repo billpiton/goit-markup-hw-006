@@ -2,26 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-            href="https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet"/>
+        href="https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-          integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="./css/styles.css"/>
-    <link rel="stylesheet" href="./css/media.css"/>
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
 </head>
 
 <header class="header">
@@ -61,41 +61,60 @@
     <div class="burger-menu">
         <nav class="burger-menu-navbar">
             <div class="burger-menu-closeBtn">
-                <button>x</button>
+                <button type="button" class="modal-open">
+                    <svg class="rundicon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
             </div>
             <ul class="burger-menu-navbar-list">
                 <li class="">Studio</li>
                 <li class="">Portfolio</li>
                 <li class="">Contacts</li>
             </ul>
-
         </nav>
+
         <div class="burger-menu-links">
-            <div class="burger-menu-contacts">
-                <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </div>
+            <address>
+                <ul class="burger-menu-contacts">
+                    <li>
+                        <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+            </address>
+            <!-- <ul class="burger-menu-contacts"> -->
+            <!-- <li> -->
+            <!-- <a href="tel:+110001111111">+11 (000) 111-11-11</a> -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- <a href="mailto:info@devstudio.com">info@devstudio.com</a> -->
+            <!-- </li> -->
+
+            <!-- </ul> -->
             <ul class="burger-menu-items ">
                 <li class="social-net-item"><a class="icon-social-item" href="#">
-                    <svg class="footer_icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                </a></li>
+                        <svg class="footer_icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a></li>
                 <li class="social-net-item"><a class="icon-social-item" href="#">
-                    <svg class="footer_icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                </a></li>
+                        <svg class="footer_icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a></li>
                 <li class="social-net-item"><a class="icon-social-item" href="#">
-                    <svg class="footer_icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                </a></li>
+                        <svg class="footer_icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a></li>
                 <li class="social-net-item"><a class="icon-social-item" href="#">
-                    <svg class="footer_icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                </a></li>
+                        <svg class="footer_icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a></li>
             </ul>
         </div>
     </div>
@@ -382,12 +401,12 @@
 
                 <li class="item">
                     <div class="item-link">
-                        <picture>
-                            <source media="(min-width: 1158px)" srcset="images/portfolio-7.jpeg">
-                            <source media="(min-width: 768px)" srcset="images/portfolio-7-medium.jpeg">
-                            <source media="(min-width: 320px)" srcset="images/portfolio-7-small.jpeg">
-                            <img src="images/portfolio-7.jpeg" width="360" alt="Meditation App">
-                        </picture>
+                      <picture>
+                        <source srcset="images/portfolio-7-small.jpeg" media="(min-resolution: 2dppx) and (max-width: 360px)">
+                        <source srcset="images/portfolio-7-medium.jpeg" media="(min-resolution: 1.5dppx) and (max-width: 360px)">
+                        <source srcset="images/portfolio-7.jpeg" media="(min-resolution: 1dppx) and (max-width: 360px)">
+                        <img src="images/portfolio-7.jpeg" sizes="(max-width: 360px) 100vw" width="360" alt="Meditation App">
+                      </picture>
                         <p class="item-link-paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager
                             App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
@@ -515,7 +534,7 @@
         </div>
     </div>
 </footer>
-<div class="backdrop">
+<div class="backdrop ">
     <div class="modal">
         <button type="button" class="modal-open">
             <svg class="rundicon" width="8" height="8">
@@ -554,16 +573,16 @@
             <div class="modal-comment">
                 <label class="modal-label" for="user-comment">Comment</label>
                 <textarea class="modal-comment-form" name="user-comment" id="user-comment"
-                          placeholder="Text input"></textarea>
+                    placeholder="Text input"></textarea>
             </div>
             <div class="modal-check">
                 <input class="modal-check-input visually-hidden" id="user-privacy" type="checkbox" value="true"
-                       name="user-privacy">
+                    name="user-privacy">
                 <label class="modal-check-input-label" for="user-privacy"><span class="modal-check-span">
-            <svg class="modal-check-icon" width="10" height="8">
-              <use href="./images/icons.svg#icon-check"></use>
-            </svg>
-          </span> I accept the terms and conditions of the
+                        <svg class="modal-check-icon" width="10" height="8">
+                            <use href="./images/icons.svg#icon-check"></use>
+                        </svg>
+                    </span> I accept the terms and conditions of the
                     <a href="" class="privacy-police">Privacy Policy</a>
                 </label>
             </div>
